@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Muhammed Shebeeb K M - R&D Engineer | Electrical & Electronics Engineer portfolio" />
+  <title>Muhammed Shebeeb K M | R&D Engineer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="loader" aria-hidden="true">
+    <div class="loader__ring"></div>
+    <span class="loader__text">Loading portfolio</span>
+  </div>
+
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <canvas id="particle-canvas" aria-hidden="true"></canvas>
+
+  <header class="header">
+    <a class="brand" href="#home" aria-label="Go to home">
+      <span class="brand__mark">SM</span>
+      <span class="brand__text">Muhammed Shebeeb</span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#other">Other</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero__content reveal">
+        <p class="eyebrow">R&D Engineer | Electrical & Electronics Engineer</p>
+        <h1>Hi, I’m <span>Muhammed Shebeeb.</span></h1>
+        <p class="hero__summary">
+          I build reliable products through validation-first engineering, embedded systems,
+          and practical IoT-driven problem solving.
+        </p>
+
+        <p class="hero__note">Currently focused on product validation, benchmarking, and design improvement.</p>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#projects">View Projects</a>
+          <a class="btn btn--ghost" href="#contact">Contact Me</a>
+          <a class="btn btn--resume" id="resume-download" href="#">Download Resume</a>
+        </div>
+
+        <div class="hero__socials" aria-label="Social links">
+          <a href="mailto:shebeebkm6@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M4 6h16v12H4z"></path>
+              <path d="m4 7 8 6 8-6"></path>
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4V8h4v2"></path>
+              <path d="M2 9h4v12H2z"></path>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+          <a href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path
+                d="M9 19c-4.8 1.5-4.8-2.5-6.8-3m13.6 6v-3.1a2.7 2.7 0 0 0-.8-2.1c2.7-.3 5.5-1.3 5.5-6a4.7 4.7 0 0 0-1.3-3.3 4.4 4.4 0 0 0-.1-3.2s-1-.3-3.4 1.3a11.7 11.7 0 0 0-6 0C7.3 2.3 6.3 2.6 6.3 2.6a4.4 4.4 0 0 0-.1 3.2A4.7 4.7 0 0 0 4.9 9c0 4.7 2.8 5.7 5.5 6a2.7 2.7 0 0 0-.8 2.1V22">
+              </path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">About</p>
+      </div>
+
+      <div class="glass-card reveal">
+        <p>
+          Hi, I’m <strong>Muhammed Shebeeb K M</strong> — an Electrical and Electronics Engineer passionate about
+          building innovative, efficient, and user-focused products. I specialize in <strong>Research &amp; Development,
+            Product Validation, and Quality Engineering</strong>, with hands-on experience in designing and testing
+          consumer appliances and smart systems.
+        </p>
+
+        <p>
+          Currently working as an <strong>R&amp;D Engineer at KCM Appliances Pvt. Ltd.</strong>, I focus on improving
+          product performance, reducing costs through value engineering, and ensuring high-quality standards through
+          data-driven analysis. I enjoy solving real-world engineering challenges and turning ideas into practical
+          solutions.
+        </p>
+
+        <p>My technical interests include:</p>
+        <ul>
+          <li>Product Design &amp; Validation</li>
+          <li>Embedded Systems &amp; IoT</li>
+          <li>Power BI &amp; Data Analysis</li>
+          <li>Electronics &amp; Automation</li>
+          <li>Research and Innovation</li>
+        </ul>
+
+        <p>
+          Beyond engineering, I actively participated in leadership and innovation communities like the IEEE Student
+          Branch and KTU Energy Cell, where I conducted workshops, mentored students, and organized technical events
+          across Kerala.
+        </p>
+
+        <p>
+          I believe in continuous learning, teamwork, and creating technology that makes everyday life better. Whether
+          it’s developing smarter appliances, analyzing product performance, or building creative tech projects, I’m
+          always excited to explore new opportunities and challenges.
+        </p>
+      </div>
+    </section>
+
+    <section class="section experience" id="experience">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Experience</p>
+        <h3>R&D work grounded in validation, coordination, and improvement.</h3>
+      </div>
+
+      <div class="glass-card reveal">
+        <h4>R&D Engineer</h4>
+        <p><strong>KCM Appliances Pvt. Ltd. (Impex)</strong><br /><em>Aug 2024 – Mar 2026</em></p>
+
+        <p>Worked in the Research &amp; Development team focusing on product validation, testing, benchmarking, and
+          product improvement for consumer appliances.</p>
+
+        <p><strong>Key Responsibilities</strong></p>
+        <ul>
+          <li>Led validation and performance testing of products including Air Fryers, BLDC Fans, Induction Cooktops,
+            Mixer Grinders, Water Heaters, Air Coolers, and TPW Appliances.</li>
+          <li>Conducted product benchmarking and competitor analysis to identify design improvements and market
+            opportunities.</li>
+          <li>Performed value engineering to optimize product cost, efficiency, and functionality.</li>
+          <li>Analyzed quality and performance data using Microsoft Excel and Power BI.</li>
+          <li>Developed interactive dashboards for monitoring product quality metrics and reducing reporting time by
+            30%.</li>
+          <li>Supported New Product Development (NPD) by preparing BOMs and technical documentation.</li>
+          <li>Collaborated with engineering, production, and quality teams to ensure compliance with safety and
+            performance standards.</li>
+          <li>Worked with ERP systems for documentation, tracking, and lifecycle coordination.</li>
+        </ul>
+      </div>
+
+      <div class="glass-card reveal">
+        <h4>Leadership &amp; Activities</h4>
+
+        <h5>IEEE Student Branch KMEA</h5>
+        <p><strong>Chair (2022–23)</strong> | <strong>Vice Chair (2021–22)</strong> | <strong>Secretary
+            (2020–21)</strong></p>
+        <ul>
+          <li>Organized workshops, orientations, and technical events.</li>
+          <li>Conducted mentoring sessions for students in technology and innovation.</li>
+          <li>Managed team coordination, event planning, and documentation.</li>
+        </ul>
+
+        <h5>KTU Energy Cell</h5>
+        <p><strong>Regional Student Coordinator (2021–2023)</strong></p>
+        <ul>
+          <li>Coordinated regional energy awareness programs across Kerala.</li>
+          <li>Organized workshops and orientation sessions for students.</li>
+          <li>Led regional student teams and managed event execution.</li>
+        </ul>
+      </div>
+
+      <div class="glass-card reveal">
+        <h4>Internship</h4>
+        <h5>ChillTech Solution</h5>
+        <p><strong>AC Installation &amp; Services Trainee</strong></p>
+        <ul>
+          <li>Assisted in AC installation and maintenance services.</li>
+          <li>Learned practical troubleshooting and servicing techniques.</li>
+          <li>Gained field-level technical experience in HVAC systems.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Projects</p>
+        <h3>Smart Continuous Passive Motion (CPM) Machine</h3>
+      </div>
+
+      <div class="glass-card reveal">
+        <p>
+          Designed and developed a smart, compact, and energy-efficient Continuous Passive Motion (CPM) Machine
+          integrated with IoT technology and a BLDC motor system. The CPM machine was developed to assist patients in
+          rehabilitation therapy by providing controlled and continuous movement for joints during recovery, with a
+          focus on improving efficiency, portability, and smart monitoring capabilities. Key features include
+          IoT-enabled monitoring and control, energy-efficient BLDC motor integration, a compact and portable design,
+          adjustable motion control for patient comfort, and smart automation for rehabilitation support. Technologies
+          used encompass Embedded Systems, IoT, BLDC Motor Technology, and Electronics &amp; Control Systems. My
+          contributions included designing the electronic and control system architecture, integrating IoT
+          functionalities for monitoring, working on motor control and performance optimization, and conducting testing,
+          validation, and performance analysis. Achievements include presenting at innovation and technical events,
+          recognition under the YUKTHI National Innovation Program, and contributions to research and project
+          documentation.
+        </p>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Skills</p>
+        <h3>Engineering &amp; Technical Skills</h3>
+      </div>
+
+      <div class="glass-card reveal">
+        <h4>Engineering &amp; Technical Skills</h4>
+        <ul>
+          <li>Product Testing &amp; Validation</li>
+          <li>Research &amp; Development (R&amp;D)</li>
+          <li>Product Benchmarking</li>
+          <li>Root Cause Analysis</li>
+          <li>Value Engineering</li>
+          <li>Quality Analysis &amp; Improvement</li>
+          <li>Vendor Development</li>
+          <li>Embedded Systems</li>
+          <li>IoT (Internet of Things)</li>
+          <li>Electronics &amp; Circuit Understanding</li>
+        </ul>
+
+        <h4>Software &amp; Tools</h4>
+        <ul>
+          <li>Microsoft Excel</li>
+          <li>Power BI</li>
+          <li>ERP Software</li>
+          <li>PCB Design Basics</li>
+          <li>PLC &amp; SCADA Fundamentals</li>
+        </ul>
+
+        <h4>Programming &amp; Development</h4>
+        <ul>
+          <li>Java Basics</li>
+          <li>Web Development Fundamentals</li>
+          <li>Embedded Programming Concepts</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Leadership section removed -->
+
+    <section class="section internship" id="internship">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Internship</p>
+        <h3>Hands-on field and service experience.</h3>
+      </div>
+
+      <div class="glass-card reveal">
+        <h4>ChillTech Solution</h4>
+        <p><strong>AC Installation &amp; Services Trainee</strong></p>
+        <ul>
+          <li>Assisted in AC installation and maintenance services.</li>
+          <li>Learned practical troubleshooting and servicing techniques.</li>
+          <li>Gained field-level technical experience in HVAC systems.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Certifications section removed -->
+
+    <section class="section other" id="other">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Other</p>
+        <h3>Certifications, achievements, languages & interests.</h3>
+      </div>
+
+      <div class="card-grid">
+        <article class="glass-card reveal">
+          <h4>Certifications</h4>
+          <ul>
+            <li>PLC &amp; SCADA – AMBIT Automation</li>
+            <li>Java-Based Web Development – ARCHON Solutions</li>
+            <li>PCB Design &amp; Fabrication – IEEE KMEA Student Branch</li>
+            <li>Metaverse &amp; Blockchain – IEEE KMEA Student Branch</li>
+          </ul>
+        </article>
+
+        <article class="glass-card reveal">
+          <h4>Achievements</h4>
+          <ul>
+            <li>Published a research paper at the ICACCES International Conference</li>
+            <li>Received <strong>Outstanding Volunteer Award</strong> at the IEEE Student Branch</li>
+            <li>Winner of the <strong>YUKTHI National Innovation Award</strong> for project presentation</li>
+            <li>Runner-Up at <strong>WhyHack</strong> 24-Hour Hackathon organized by Kerala Startup Mission</li>
+            <li>Selected for the <strong>KTU Energy Cell State Team</strong> and conducted workshops across Kerala</li>
+          </ul>
+        </article>
+
+        <article class="glass-card reveal">
+          <h4>Languages</h4>
+          <ul>
+            <li>English</li>
+            <li>Malayalam</li>
+            <li>Hindi</li>
+            <li>Tamil</li>
+          </ul>
+        </article>
+
+        <article class="glass-card reveal">
+          <h4>Interests</h4>
+          <ul>
+            <li>Product Innovation</li>
+            <li>Smart Technologies</li>
+            <li>IoT &amp; Automation</li>
+            <li>Electronics Research</li>
+            <li>Embedded Systems</li>
+            <li>Technical Communities &amp; Volunteering</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Contact</p>
+        <h3>Let’s discuss engineering, product, and technology opportunities.</h3>
+      </div>
+
+      <div class="contact__grid">
+        <form class="contact-form glass-card reveal" id="contact-form" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" />
+            <span class="error" data-error-for="name"></span>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" />
+            <span class="error" data-error-for="email"></span>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about the opportunity"></textarea>
+            <span class="error" data-error-for="message"></span>
+          </div>
+          <button class="btn btn--primary" type="submit">Send Message</button>
+          <p class="form-note">This form uses client-side validation and a success popup.</p>
+        </form>
+
+        <aside class="contact-card glass-card reveal">
+          <h4>Direct Details</h4>
+          <a href="mailto:shebeebkm6@gmail.com">shebeebkm6@gmail.com</a>
+          <a href="tel:+918089965560">+91 8089965560</a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn Profile</a>
+          <p>
+            Open to R&D, validation, embedded, IoT, and product engineering opportunities.
+          </p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
